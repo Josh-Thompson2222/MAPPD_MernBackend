@@ -31,7 +31,7 @@ app.get('/api/status', (req, res) => {
   res.json({ 
     status: "Online",
     message: "AWS Backend is reachable!",
-    owner: "Fergus Downey", // Change this to your name!!!
+    owner: "Josh Thompson", // Change this to your name!!!
     timestamp: new Date()
   });
 });
